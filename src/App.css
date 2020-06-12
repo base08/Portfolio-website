@@ -20,6 +20,7 @@
 
 .Logo {
   width: 150px;
+  fill: white;
 }
 
 main {
@@ -56,6 +57,12 @@ nav {
   align-items: flex-end;
 }
 
+.Project:hover {
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.4);
+  transform: translate3d(0, -2px, 0);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
 .Category {
   margin: 0;
   font-weight: 400;
@@ -75,8 +82,7 @@ nav {
 
 .Project-2 {
   background-size: cover;
-  background-image: linear-gradient(#ffd49b, #ffd49b),
-    url(./moticon_3d_shoe.png);
+  background-image: linear-gradient(#ffd49b, #ffd49b), url(./sardinha.png);
   background-blend-mode: multiply;
   background-color: #ffd49b;
 }
@@ -191,11 +197,15 @@ svg:hover {
   }
 
   .Greeting {
-    font-size: 2em;
+    font-size: 3em;
+    line-height: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 0;
   }
 
   .Description {
-    font-size: 1em;
+    font-size: 1.5em;
+    margin-top: 15px;
   }
   article {
     position: relative;
@@ -205,8 +215,9 @@ svg:hover {
   }
 
   .Title-nav {
+    grid-column: 1/3;
     display: block;
-    font-size: 1.3em;
+    font-size: 1.5em;
   }
 
   footer {
