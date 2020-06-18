@@ -1,0 +1,39 @@
+.App-header {
+  background-color: rgba(49, 49, 49, 0.8);
+  width: 100%;
+  height: 170px;
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  display: flex;
+  position: fixed;
+  top: 0;
+  align-items: center;
+  z-index: 2;
+}
+
+.Header-contents {
+  display: flex;
+  width: 90%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Logo {
+  width: 150px;
+  fill: white;
+}
+
+@media all and (max-width: 700px) {
+  .App-header {
+    height: 120px;
+    z-index: 2;
+    order: 2;
+  }
+  .Header-contents {
+    justify-content: center;
+  }
+  .Logo {
+    width: 130px;
+  }
+}

@@ -1,0 +1,94 @@
+.Title-nav {
+  display: none;
+}
+
+nav {
+  padding-top: 180px;
+  order: 1;
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  z-index: 0;
+  width: 40%;
+  margin-right: 50px;
+}
+
+.Project {
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+  box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: flex-end;
+}
+
+.Project::before {
+  content: "";
+  padding-bottom: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Project:hover {
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.4);
+  transform: translate3d(0, -2px, 0);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.Category {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.Title-project {
+  margin: 0;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.Project-1 {
+  background-size: cover;
+  background-image: linear-gradient(#ffbaa5, #ffbaa5),
+    url(../moticon_3d_shoe.png);
+  background-blend-mode: multiply;
+}
+
+.Project-2 {
+  background-size: cover;
+  background-image: linear-gradient(#ffd49b, #ffd49b), url(../sardinha.png);
+  background-blend-mode: multiply;
+  background-color: #ffd49b;
+}
+
+.Project-3 {
+  background-color: #eaefb3;
+}
+.Project-4 {
+  background-color: #8fe4ed;
+}
+.Project-5 {
+  background-color: #daa8dc;
+}
+.Project-6 {
+  background-color: #a6d795;
+}
+.Project-7 {
+  background-color: #8bc8c4;
+}
+
+@media all and (max-width: 700px) {
+  nav {
+    padding-top: 0;
+    width: 100%;
+    margin-right: auto;
+    order: 2;
+  }
+
+  .Title-nav {
+    grid-column: 1/3;
+    display: block;
+    font-size: 2.5rem;
+  }
+}

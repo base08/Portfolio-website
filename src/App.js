@@ -3,9 +3,10 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import Greeting from "./Components/Greeting";
 import ProjectSection from "./Components/ProjectSection";
-import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Navigation from "./Components/Navigation";
+import Footer from "./Components/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
@@ -15,15 +16,21 @@ function App() {
         <main>
           <Switch>
             <Route path="/project1">
-              <ProjectSection />
+              <ScrollToTop />
+              <ProjectSection
+                title="Moticon 3D Render"
+                description="Lorem Ipsum asdasdasdasdasdasdasdsadcenas cenas"
+              />
             </Route>
             <Route exact path="/">
               <Greeting />
+              <Navigation />
             </Route>
           </Switch>
-          <Navigation />
+          <div className="Responsive-footer">
+            <Footer />
+          </div>
         </main>
-        <Footer />
       </Router>
     </div>
   );
