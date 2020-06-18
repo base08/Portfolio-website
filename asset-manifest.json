@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.9f632966.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.eed0c870.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.eed0c870.chunk.js.map",
+    "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.8928ca10.js",
+    "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.8928ca10.js.map",
+    "static/js/2.c155cdd7.chunk.js": "/Portfolio-Website/static/js/2.c155cdd7.chunk.js",
+    "static/js/2.c155cdd7.chunk.js.map": "/Portfolio-Website/static/js/2.c155cdd7.chunk.js.map",
+    "index.html": "/Portfolio-Website/index.html",
+    "precache-manifest.2d9a797a68c5083b30d455f942ce8722.js": "/Portfolio-Website/precache-manifest.2d9a797a68c5083b30d455f942ce8722.js",
+    "service-worker.js": "/Portfolio-Website/service-worker.js",
+    "static/css/main.9f632966.chunk.css.map": "/Portfolio-Website/static/css/main.9f632966.chunk.css.map",
+    "static/js/2.c155cdd7.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.c155cdd7.chunk.js.LICENSE.txt",
+    "static/media/Navigation.css": "/Portfolio-Website/static/media/sardinha.a83484d0.png",
+    "static/media/mugshot.png": "/Portfolio-Website/static/media/mugshot.2fd7b23c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8928ca10.js",
+    "static/js/2.c155cdd7.chunk.js",
+    "static/css/main.9f632966.chunk.css",
+    "static/js/main.eed0c870.chunk.js"
+  ]
+}
