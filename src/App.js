@@ -22,7 +22,7 @@ function App() {
                 description="Lorem Ipsum asdasdasdasdasdasdasdsadcenas cenas"
               />
             </Route>
-            <Route exact path="/">
+            <Route path="/">
               <Greeting />
               <Navigation />
             </Route>
