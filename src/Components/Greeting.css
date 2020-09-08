@@ -1,16 +1,16 @@
-article {
+.Greeting-wrapper {
   flex-grow: 2;
   order: 2;
   padding-top: 180px;
+  padding-bottom: 50px;
   z-index: 1;
-  width: 50%;
+  width: 40%;
+  height: 100vh;
+  min-height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
-}
-
-.Greeting-wrapper {
   position: sticky;
-  top: 170px;
+  top: 0;
 }
 
 .Mugshot {
@@ -31,10 +31,17 @@ article {
   font-weight: 400;
 }
 
+.Spacer {
+  flex: 1;
+}
+
 @media all and (max-width: 700px) {
-  article {
+  .Greeting-wrapper {
     order: 1;
     padding-top: 120px;
+    padding-bottom: 0;
+    position: unset;
+    height: auto;
   }
   article .Footer-wrapper {
     display: none;

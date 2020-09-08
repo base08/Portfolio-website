@@ -2,16 +2,15 @@
   display: none;
 }
 
-nav {
+.Nav-wrapper {
   padding-top: 180px;
+  padding-bottom: 50px;
   order: 1;
-  flex-grow: 1;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
   z-index: 0;
-  width: 40%;
-  margin-right: 50px;
+  margin-right: 6rem;
 }
 
 .Project {
@@ -63,12 +62,22 @@ nav {
 }
 
 .Project-3 {
+  background-size: cover;
+  background-image: linear-gradient(#eaefb3, #eaefb3),
+    url(../movinsense_info.png);
+  background-blend-mode: multiply;
   background-color: #eaefb3;
 }
 .Project-4 {
+  background-size: cover;
+  background-image: linear-gradient(#8fe4ed, #8fe4ed), url(../feetme_rollup.png);
+  background-blend-mode: multiply;
   background-color: #8fe4ed;
 }
 .Project-5 {
+  background-size: cover;
+  background-image: linear-gradient(#daa8dc, #daa8dc), url(../rtp2_layout.png);
+  background-blend-mode: multiply;
   background-color: #daa8dc;
 }
 .Project-6 {
@@ -78,12 +87,35 @@ nav {
   background-color: #8bc8c4;
 }
 
+.Project-8 {
+  background-color: #eaefb3;
+}
+.Project-9 {
+  background-color: #8fe4ed;
+}
+.Project-10 {
+  background-color: #daa8dc;
+}
+.Project-11 {
+  background-color: #a6d795;
+}
+.Project-12 {
+  background-color: #8bc8c4;
+}
+.Project-13 {
+  background-color: #a6d795;
+}
+.Project-14 {
+  background-color: #8bc8c4;
+}
+
 @media all and (max-width: 700px) {
-  nav {
+  .Nav-wrapper {
     padding-top: 0;
     width: 100%;
     margin-right: auto;
     order: 2;
+    padding-bottom: 0;
   }
 
   .Title-nav {

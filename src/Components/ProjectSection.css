@@ -5,34 +5,74 @@
   padding-top: 180px;
   z-index: 1;
   width: 50%;
+  min-width: 50%;
 }
 
-.ProjSec-wrapper {
-  position: sticky;
+.Arrow {
+  cursor: pointer;
+  display: none;
+  border: none;
+}
+
+.iframe-wrapper {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.resp-iframe {
+  position: absolute;
   top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 
 .Project-image {
   max-width: 100%;
   height: auto;
   border-radius: 5px;
-  margin-top: 20px;
+}
+
+.Project-category {
+  font-size: 1rem;
+  margin-bottom: 0;
 }
 
 .Project-title {
   font-size: 3rem;
+  margin-top: 0;
 }
 
 .Project-description {
   font-size: 1.5rem;
+  color: inherit;
 }
 
 @media all and (max-width: 700px) {
+  .Arrow {
+    display: block;
+    margin-bottom: 1.5em;
+  }
+
   .ProjectSection {
     order: 1;
     padding-top: 120px;
+    position: unset;
+    height: auto;
   }
   article .Footer {
     display: none;
+  }
+  .Project-image {
+    left: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    max-width: 100vw;
+    position: relative;
+    right: 50%;
+    width: 100vw;
+    border-radius: 0;
   }
 }

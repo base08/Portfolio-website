@@ -4,14 +4,10 @@ main {
   max-width: 960px;
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  height: 100%;
 }
 
 .Responsive-footer {
-  display: none;
-}
-
-.Responsive-navigation {
   display: none;
 }
 
@@ -20,5 +16,14 @@ main {
     order: 3;
     display: block;
     width: 100%;
+  }
+
+  main {
+    flex-wrap: wrap;
+  }
+
+  .Responsive-nav {
+    display: none !important;
+    background-color: chocolate;
   }
 }
