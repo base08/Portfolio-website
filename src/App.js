@@ -49,6 +49,14 @@ const content = [
     },
     video: "https://www.youtube.com/embed/Pxk4Ei1HMxU",
   },
+  {
+    category: "UI/UX",
+    title: "Under construction",
+    article: {
+      __html: `<p class="Project-description">This roll-up was a part of a small colaboration with <a class="Project-description" href="https://feetme.fr/en">FeetMe</a>, which is a french company that develops insoles to help medical staff measure, rehabilitate and assist gait to maintain autonomy of their patients.</p><p class="Project-description"> At this point the company was participating in different fairs and exhibitions in order to promote their product and they needed some promotional materials.</p><p class="Project-description">I've created these roll-ups with the main focus being the insoles and their features.</p><p class="Project-description">This roll-up was done on Illustrator.</p>`,
+    },
+    image: require("./feetme_rollup.png"),
+  },
 ];
 
 function App() {
@@ -62,7 +70,9 @@ function App() {
             {content.map((cont, index) => (
               <Route path={`/project${index + 1}`}>
                 <ProjectSection content={content} index={index} />
-                <Navigation content={content} />
+                <div className="Responsive-nav">
+                  <Navigation content={content} />
+                </div>
               </Route>
             ))}
             <Route path="/">
