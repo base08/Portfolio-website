@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.9f632966.chunk.css",
-    "main.js": "/Portfolio-Website/static/js/main.a1bb8ea0.chunk.js",
-    "main.js.map": "/Portfolio-Website/static/js/main.a1bb8ea0.chunk.js.map",
+    "main.css": "/Portfolio-Website/static/css/main.23de5818.chunk.css",
+    "main.js": "/Portfolio-Website/static/js/main.a04d9f4c.chunk.js",
+    "main.js.map": "/Portfolio-Website/static/js/main.a04d9f4c.chunk.js.map",
     "runtime-main.js": "/Portfolio-Website/static/js/runtime-main.8928ca10.js",
     "runtime-main.js.map": "/Portfolio-Website/static/js/runtime-main.8928ca10.js.map",
-    "static/js/2.c155cdd7.chunk.js": "/Portfolio-Website/static/js/2.c155cdd7.chunk.js",
-    "static/js/2.c155cdd7.chunk.js.map": "/Portfolio-Website/static/js/2.c155cdd7.chunk.js.map",
+    "static/js/2.fc069df3.chunk.js": "/Portfolio-Website/static/js/2.fc069df3.chunk.js",
+    "static/js/2.fc069df3.chunk.js.map": "/Portfolio-Website/static/js/2.fc069df3.chunk.js.map",
     "index.html": "/Portfolio-Website/index.html",
-    "precache-manifest.9621249859c749db39df86027b166eb5.js": "/Portfolio-Website/precache-manifest.9621249859c749db39df86027b166eb5.js",
+    "precache-manifest.d1ea7cf71b07a5b3fa8c0cdf87e7b10e.js": "/Portfolio-Website/precache-manifest.d1ea7cf71b07a5b3fa8c0cdf87e7b10e.js",
     "service-worker.js": "/Portfolio-Website/service-worker.js",
-    "static/css/main.9f632966.chunk.css.map": "/Portfolio-Website/static/css/main.9f632966.chunk.css.map",
-    "static/js/2.c155cdd7.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.c155cdd7.chunk.js.LICENSE.txt",
-    "static/media/Navigation.css": "/Portfolio-Website/static/media/sardinha.a83484d0.png",
-    "static/media/mugshot.png": "/Portfolio-Website/static/media/mugshot.2fd7b23c.png"
+    "static/css/main.23de5818.chunk.css.map": "/Portfolio-Website/static/css/main.23de5818.chunk.css.map",
+    "static/js/2.fc069df3.chunk.js.LICENSE.txt": "/Portfolio-Website/static/js/2.fc069df3.chunk.js.LICENSE.txt",
+    "static/media/feetme_rollup.png": "/Portfolio-Website/static/media/feetme_rollup.84de7273.png",
+    "static/media/moticon_3d_shoe.png": "/Portfolio-Website/static/media/moticon_3d_shoe.ae7f2280.png",
+    "static/media/Navigation.css": "/Portfolio-Website/static/media/rtp2_layout.e07a2e92.png",
+    "static/media/movinsense_info_full.png": "/Portfolio-Website/static/media/movinsense_info_full.657bba4d.png",
+    "static/media/mugshot.png": "/Portfolio-Website/static/media/mugshot.2fd7b23c.png",
+    "static/media/sardinha.png": "/Portfolio-Website/static/media/sardinha.a83484d0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8928ca10.js",
-    "static/js/2.c155cdd7.chunk.js",
-    "static/css/main.9f632966.chunk.css",
-    "static/js/main.a1bb8ea0.chunk.js"
+    "static/js/2.fc069df3.chunk.js",
+    "static/css/main.23de5818.chunk.css",
+    "static/js/main.a04d9f4c.chunk.js"
   ]
 }
