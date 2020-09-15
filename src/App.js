@@ -50,7 +50,7 @@ const content = [
     video: "https://www.youtube.com/embed/Pxk4Ei1HMxU",
   },
   {
-    category: "UI/UX",
+    category: "Category",
     title: "Under construction",
     article: {
       __html: `<p class="Project-description">This roll-up was a part of a small colaboration with <a class="Project-description" href="https://feetme.fr/en">FeetMe</a>, which is a french company that develops insoles to help medical staff measure, rehabilitate and assist gait to maintain autonomy of their patients.</p><p class="Project-description"> At this point the company was participating in different fairs and exhibitions in order to promote their product and they needed some promotional materials.</p><p class="Project-description">I've created these roll-ups with the main focus being the insoles and their features.</p><p class="Project-description">This roll-up was done on Illustrator.</p>`,
