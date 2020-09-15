@@ -59,12 +59,11 @@ function App() {
         <main>
           <ScrollToLocal />
           <Switch>
-            <Route path={`/project${content.length}`}>
-              <ProjectSection content={content[content.length - 1]} />
-              <div className="Responsive-nav">
-                <Navigation content={content} />
-              </div>
-            </Route>
+            {content.map((cont, index) => (
+              <Route path={`/project${index + 1}`}>
+                <ProjectSection content={content} index={index} />
+              </Route>
+            ))}
             <Route path="/">
               <Greeting />
               <Navigation content={content} />

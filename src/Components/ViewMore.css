@@ -22,6 +22,7 @@
   box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.8);
   display: flex;
   align-items: flex-end;
+  min-width: 120px;
 }
 
 .Project::before {
@@ -41,38 +42,28 @@
   margin: 0;
   font-weight: 400;
   font-size: 1rem;
+  color: black;
 }
 
 .Title-project {
   margin: 0;
   font-weight: 800;
   font-size: 1.5rem;
-}
-
-.Project-1 {
-  background-size: cover;
-  background-image: linear-gradient(#ffbaa5, #ffbaa5),
-    url(../moticon_3d_shoe.png);
-  background-blend-mode: multiply;
-}
-
-.Project-2 {
-  background-size: cover;
-  background-image: linear-gradient(#ffd49b, #ffd49b), url(../sardinha.png);
-  background-blend-mode: multiply;
-  background-color: #ffd49b;
+  color: black;
 }
 
 .Prev {
   text-align: center;
   font-size: 1.2em;
-  margin: 0;
+  margin-top: 30px;
+  color: white;
 }
 
 .Next {
   text-align: center;
   font-size: 1.2em;
-  margin: 0;
+  margin-top: 30px;
+  color: white;
 }
 
 @media all and (max-width: 700px) {

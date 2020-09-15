@@ -3,29 +3,39 @@ import { Link } from "react-router-dom";
 import "./ViewMore.css";
 import ReactTooltip from "react-tooltip";
 
-function ViewMore() {
+function ViewMore({ content, index }) {
   return (
     <nav className="View-more-wrapper">
-      <ReactTooltip />
+      <ReactTooltip delayShow={2000} />
       <h2 className="Title-view-more">View More</h2>
-      <Link style={{ textDecoration: "none" }} to="/project1">
-        <div className="Project Project-1" data-tip="Moticon 3D Shoe">
-          <div className="Project-caption">
-            <h5 className="Category">3D Render</h5>
-            <h4 className="Title-project">Moticon 3D Shoe</h4>
+      {index >= 1 && (
+        <Link style={{ textDecoration: "none" }} to={`/project${index}`}>
+          <div
+            className={`Project Project-${index}`}
+            data-tip={content[index - 1].title}
+          >
+            <div className="Project-caption">
+              <h5 className="Category">{content[index - 1].category}</h5>
+              <h4 className="Title-project">{content[index - 1].title}</h4>
+            </div>
           </div>
-        </div>
-      </Link>
-      <Link style={{ textDecoration: "none" }} to="/project2">
-        <div className="Project Project-2" data-tip="Sardinha Portugal">
-          <div className="Project-caption">
-            <h5 className="Category">Illustration</h5>
-            <h4 className="Title-project">Sardinha Portugal</h4>
+          <h4 className="Prev">Previous</h4>
+        </Link>
+      )}
+      {index + 1 < content.length && (
+        <Link style={{ textDecoration: "none" }} to={`/project${index + 2}`}>
+          <div
+            className={`Project Project-${index + 2}`}
+            data-tip={content[index + 1].title}
+          >
+            <div className="Project-caption">
+              <h5 className="Category">{content[index + 1].category}</h5>
+              <h4 className="Title-project">{content[index + 1].title}</h4>
+            </div>
           </div>
-        </div>
-      </Link>
-      <h4 className="Prev">Previous</h4>
-      <h4 className="Next">Next</h4>
+          <h4 className="Next">Next</h4>
+        </Link>
+      )}
     </nav>
   );
 }
