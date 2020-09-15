@@ -62,6 +62,7 @@ function App() {
             {content.map((cont, index) => (
               <Route path={`/project${index + 1}`}>
                 <ProjectSection content={content} index={index} />
+                <Navigation content={content} />
               </Route>
             ))}
             <Route path="/">
