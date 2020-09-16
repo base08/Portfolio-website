@@ -45,7 +45,7 @@ const content = [
     category: "Motion Graphics",
     title: "RTP2 Layout",
     article: {
-      __html: `<p class="Project-description">This roll-up was a part of a small colaboration with <a class="Project-description" href="https://feetme.fr/en">FeetMe</a>, which is a french company that develops insoles to help medical staff measure, rehabilitate and assist gait to maintain autonomy of their patients.</p><p class="Project-description"> At this point the company was participating in different fairs and exhibitions in order to promote their product and they needed some promotional materials.</p><p class="Project-description">I've created these roll-ups with the main focus being the insoles and their features.</p><p class="Project-description">This roll-up was done on Illustrator.</p>`,
+      __html: `<p class="Project-description"><a class="Project-description" href="https://www.rtp.pt/programa/tv/p28665">Layout</a> was a TV program that aired on Portuguese national tv channel RTP2. The program was a showcase of Art and Design iniciatives, where different portuguese artists got interviewed and talked more about their process on their work.</p><p class="Project-description">My role on Layout was to create the visuals and animations regarding the behaviour of the logo, footer information, and segment separations, each with their own reinterpretation according to the theme presented in that segment.</p><p class="Project-description">I've created these animations with Adobe After Effects.</p>`,
     },
     video: "https://www.youtube.com/embed/Pxk4Ei1HMxU",
   },
