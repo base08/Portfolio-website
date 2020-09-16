@@ -78,24 +78,40 @@
 }
 .Project-6 {
   background-size: cover;
-  background-image: linear-gradient(#daa8dc, #daa8dc), url(../rtp2_layout.png);
+  background-image: linear-gradient(#a6d795, #a6d795),
+    url(../placeholder-image.png);
   background-blend-mode: multiply;
 }
 .Project-7 {
-  background-color: #8bc8c4;
+  background-size: cover;
+  background-image: linear-gradient(#8bc8c4, #8bc8c4),
+    url(../placeholder-image.png);
+  background-blend-mode: multiply;
 }
 
 .Project-8 {
-  background-color: #eaefb3;
+  background-size: cover;
+  background-image: linear-gradient(#eaefb3, #eaefb3),
+    url(../placeholder-image.png);
+  background-blend-mode: multiply;
 }
 .Project-9 {
-  background-color: #8fe4ed;
+  background-size: cover;
+  background-image: linear-gradient(#8fe4ed, #8fe4ed),
+    url(../placeholder-image.png);
+  background-blend-mode: multiply;
 }
 .Project-10 {
-  background-color: #daa8dc;
+  background-size: cover;
+  background-image: linear-gradient(#daa8dc, #daa8dc),
+    url(../placeholder-image.png);
+  background-blend-mode: multiply;
 }
 .Project-11 {
-  background-color: #a6d795;
+  background-size: cover;
+  background-image: linear-gradient(#a6d795, #a6d795),
+    url(../placeholder-image.png);
+  background-blend-mode: multiply;
 }
 .Project-12 {
   background-color: #8bc8c4;

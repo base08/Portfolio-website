@@ -53,9 +53,33 @@ const content = [
     category: "Category",
     title: "Under construction",
     article: {
-      __html: `<p class="Project-description">This roll-up was a part of a small colaboration with <a class="Project-description" href="https://feetme.fr/en">FeetMe</a>, which is a french company that develops insoles to help medical staff measure, rehabilitate and assist gait to maintain autonomy of their patients.</p><p class="Project-description"> At this point the company was participating in different fairs and exhibitions in order to promote their product and they needed some promotional materials.</p><p class="Project-description">I've created these roll-ups with the main focus being the insoles and their features.</p><p class="Project-description">This roll-up was done on Illustrator.</p>`,
+      __html: `<p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus. </p><p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus. </p><p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus.</p>`,
     },
-    image: require("./feetme_rollup.png"),
+    image: require("./placeholder-image.png"),
+  },
+  {
+    category: "Category",
+    title: "Under construction",
+    article: {
+      __html: `<p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus. </p><p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus. </p><p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus.</p>`,
+    },
+    image: require("./placeholder-image.png"),
+  },
+  {
+    category: "Category",
+    title: "Under construction",
+    article: {
+      __html: `<p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus. </p><p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus. </p><p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus.</p>`,
+    },
+    image: require("./placeholder-image.png"),
+  },
+  {
+    category: "Category",
+    title: "Under construction",
+    article: {
+      __html: `<p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus. </p><p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus. </p><p class="Project-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec felis ex, pharetra quis ligula sit amet, faucibus pretium urna. Pellentesque vestibulum tincidunt massa, quis vestibulum urna tincidunt eu. Cras luctus eros a felis molestie tempus. Nulla ornare sapien quis suscipit scelerisque. Nunc eu nisi pharetra, pharetra sem nec, tincidunt libero. Mauris venenatis eget neque vel elementum. Donec tincidunt condimentum odio in maximus.</p>`,
+    },
+    image: require("./placeholder-image.png"),
   },
 ];
 
