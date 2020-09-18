@@ -54,7 +54,7 @@
   color: white;
   background-color: transparent;
   cursor: pointer;
-  transition: ease-in-out;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .Contact-button:hover {
