@@ -42,6 +42,31 @@
   font-weight: 400;
 }
 
+.Contact-button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid white;
+  max-width: 60%;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 3px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition: ease-in-out;
+}
+
+.Contact-button:hover {
+  color: black;
+  background-color: white;
+}
+
+.Contact-button:active {
+  position: relative;
+  top: 1px;
+}
+
 .Spacer {
   flex: 1;
 }

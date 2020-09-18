@@ -3,6 +3,7 @@ import "./ProjectSection.css";
 import Footer from "./Footer";
 import ViewMore from "./ViewMore";
 import BackHistory from "./BackHistory";
+import Carousel from "nuka-carousel";
 
 function ProjectSection({ content, index }) {
   return (
@@ -20,11 +21,16 @@ function ProjectSection({ content, index }) {
           ></iframe>
         </div>
       ) : (
-        <img
-          src={content[index].image}
-          className="Project-image"
-          alt="This is the project"
-        />
+        <Carousel
+          wrapAround="true"
+          autoplay="true"
+          renderCenterLeftControls={({ previousSlide }) => null}
+          renderCenterRightControls={({ nextSlide }) => null}
+        >
+          <img src={content[index].image} />
+          <img src={content[index].image} />
+          <img src={content[index].image} />
+        </Carousel>
       )}
       <h5 className="Project-category">{content[index].category}</h5>
       <h2 className="Project-title">{content[index].title}</h2>{" "}
