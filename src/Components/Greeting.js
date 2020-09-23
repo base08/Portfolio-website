@@ -12,8 +12,11 @@ function Greeting() {
         I’m a UX/UI Designer, that also likes to play with code and computers.
       </h4>
       <div>
+        <a href="https://drive.google.com/drive/folders/1zXJF_bYAIebHWZK-FpKLJBfO5YFIBK1s?usp=sharing">
+          <button className="Button Portfolio">FULL PORTFOLIO</button>
+        </a>
         <a href="mailto:hsaraiva08@gmail.com">
-          <button className="Contact-button">CONTACT ME</button>
+          <button className="Button Contact">CONTACT ME</button>
         </a>
       </div>
       <div className="Spacer"></div>
