@@ -86,7 +86,7 @@ const content = [
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/Portfolio-Website">
         <Header />
         <main>
           <ScrollToLocal />
