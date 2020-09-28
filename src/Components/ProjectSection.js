@@ -27,9 +27,9 @@ function ProjectSection({ content, index }) {
           renderCenterLeftControls={({ previousSlide }) => null}
           renderCenterRightControls={({ nextSlide }) => null}
         >
-          <img src={content[index].image} alt={content[index].title} />
-          <img src={content[index].image} alt={content[index].title} />
-          <img src={content[index].image} alt={content[index].title} />
+          <img src={content[index].image1} alt={content[index].title} />
+          <img src={content[index].image2} alt={content[index].title} />
+          <img src={content[index].image3} alt={content[index].title} />
         </Carousel>
       )}
       <h5 className="Project-category">{content[index].category}</h5>

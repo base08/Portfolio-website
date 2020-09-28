@@ -37,26 +37,27 @@
 
 .Category {
   margin: 0;
-  font-weight: 400;
+  font-weight: 800;
   font-size: 1rem;
 }
 
 .Title-project {
   margin: 0;
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 
 .Project-1 {
   background-size: cover;
   background-image: linear-gradient(#ffbaa5, #ffbaa5),
-    url(../moticon_3d_shoe.png);
+    url(../moticon_3d_shoe_1.png);
   background-blend-mode: multiply;
 }
 
 .Project-2 {
   background-size: cover;
-  background-image: linear-gradient(#ffd49b, #ffd49b), url(../sardinha.png);
+  background-image: linear-gradient(#ffd49b, #ffd49b),
+    url(../sardinha_portugal.png);
   background-blend-mode: multiply;
 }
 
@@ -68,7 +69,8 @@
 }
 .Project-4 {
   background-size: cover;
-  background-image: linear-gradient(#8fe4ed, #8fe4ed), url(../feetme_rollup.png);
+  background-image: linear-gradient(#8fe4ed, #8fe4ed),
+    url(../feetme_rollup_1.png);
   background-blend-mode: multiply;
 }
 .Project-5 {
