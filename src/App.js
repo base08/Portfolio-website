@@ -7,6 +7,9 @@ import Header from "./Components/Header";
 import Navigation from "./Components/Navigation";
 import Footer from "./Components/Footer";
 import ScrollToLocal from "./Components/ScrollToLocal";
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-179015148-1");
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const content = [
   {
