@@ -13,19 +13,13 @@ function Greeting() {
         I’m a UX/UI Designer, that also likes to play with code and computers.
       </h4>
       <div className="Buttons-CTA">
-        {/*    <a
-          className="Button Portfolio"
-          href="https://drive.google.com/drive/folders/1zXJF_bYAIebHWZK-FpKLJBfO5YFIBK1s?usp=sharing"
-        >
-          FULL PORTFOLIO
-        </a> */}
         <ReactGA.OutboundLink
           className="Button Portfolio"
           eventLabel="GDRIVE PORTFOLIO"
           to="https://drive.google.com/drive/folders/1zXJF_bYAIebHWZK-FpKLJBfO5YFIBK1s?usp=sharing"
           target="_blank"
         >
-          FULL PORTFOLIO
+          SEE FULL PORTFOLIO
         </ReactGA.OutboundLink>
         <a className="Button Contact" href="mailto:hsaraiva08@gmail.com">
           CONTACT ME

@@ -40,5 +40,4 @@ function ProjectSection({ content, index }) {
     </article>
   );
 }
-
 export default ProjectSection;
